@@ -1,0 +1,84 @@
+
+#caja{
+    text-align: center;
+}
+
+header, section, footer{
+    display:inline-table;
+    width: 80%;
+    margin: 50px, auto;
+    padding: 15px;
+    text-align: left;
+    border: 1px slategray;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 50px;
+
+    -moz-box-shadow: rgb(150, 150, 150) 5px 5px;
+
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+}
+
+#titulo{
+    font: bold 40px verdana, sans-serif;
+    text-shadow: rgb(94, 80, 80);
+}
+
+#titulo:hover{
+    -moz-transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+}
+
+#subtitulo{
+    font: bold 35px verdana, sans-serif;
+}
+
+body{
+    background: url(estrella19.png);
+    background-attachment: fixed;
+    background-position: right left;
+    color: #fff;
+}
+
+/*p{font-size: 40px;}*/
+/*Referencias por id*/
+#texto1{text-align: left;}
+#texto1{font-size: 20px;}
+#texto1{color: dimgray;}
+#texto2{font-size: 30px;}
+#texto2{color: dimgray;}
+#texSto2 {border: 100cm;}
+#texto2{font-weight: bold;}
+#texto1{font-style:inherit;}
+#texto3{font-size: 40px;}
+#texto3{font-weight: bold;}
+#texto3{text-align: center;}
+#texto3{color: dimgray;}
+#texto4{text-align:center;}
+#texto4{font-size: 50px;}
+#texto4{color: dimgray;}
+/*Referencias por clase*/
+p.clase1 {font-size: 30px;}
+.clase2 {font-size: 50px;}
+.clase2{font-weight: bold;}
+h1.clase1{font-size: 100px;}
+h1.clase1{color: dimgray;}
+.cajita{text-align: center ;background-color: aqua;}
+.cajita1{text-align:left; background-color: rgb(71, 83, 70);}
+.cajita2{text-align: justify; background-color: blue;}
+.cajita3{text-align: justify;background-color: brown;}
+.cajita4{background-color: beige;}
+    /*Esto es un comentario*/
+
+
+body{background: url(starry-sky-stars-universe-violet-wallpaper-preview.jpg);}
+
+#imagen{border-radius: 8px;}
+#img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }}
